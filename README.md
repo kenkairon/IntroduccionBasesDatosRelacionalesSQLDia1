@@ -1,14 +1,17 @@
-**Ejercicio**: Explorar y analizar un esquema de base de datos relacional
+# **Ejercicio**: Explorar y analizar un esquema de base de datos relacional
 Ejercicio práctico para aplicar los conceptos aprendidos.
+| Autor            | Fecha        | Día |
+|------------------|--------------|----------|
+| **Carlos Vásquez** |04 Noviembre 2025 | 1 |
 
-Configurar SQLite local:
+## Configurar SQLite local:
 
-# Crear base de datos de ejemplo
+## Crear base de datos de ejemplo
 ```sql
 sqlite3 tienda_ejemplo.db
 ```
 ![Creacion Base Datos](img/CreacionBaseDatos.png)
-# Crear esquema básico:
+## Crear esquema básico:
 
 ```sql
 -- Crear tabla de clientes
