@@ -18,9 +18,10 @@ CREATE TABLE clientes (
     email VARCHAR(100) UNIQUE,
     fecha_registro DATE NOT NULL
 );
-
+```
 
 ![Creacion de la tabla clientes](img/Clientes.png)
+```sql
 -- Crear tabla de productos
 CREATE TABLE productos (
     id INTEGER PRIMARY KEY,
@@ -29,7 +30,9 @@ CREATE TABLE productos (
     stock INTEGER DEFAULT 0,
     categoria VARCHAR(50)
 );
+```
 ![Creacion de la tabla productos](img/Productos.png)
+```sql
 -- Crear tabla de pedidos
 CREATE TABLE pedidos (
     id INTEGER PRIMARY KEY,
@@ -38,8 +41,9 @@ CREATE TABLE pedidos (
     total DECIMAL(10,2),
     FOREIGN KEY (cliente_id) REFERENCES clientes(id)
 );
-![Creacion de la tabla pedidos](img/Pedidos.png)
 ```
+![Creacion de la tabla pedidos](img/Pedidos.png)
+
 ## Explorar estructura:
 
 ### -- Ver todas las tablas
