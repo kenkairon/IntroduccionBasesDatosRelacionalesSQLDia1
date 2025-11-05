@@ -90,3 +90,10 @@ PRAGMA table_info(clientes);
 | **FOREIGN KEY** | Mantiene integridad referencial entre tablas.         | `pedidos.cliente_id` debe existir en `clientes.id`.           |
 | **UNIQUE**      | Evita duplicados en una columna.                      | `clientes.email` no puede repetirse.                          |
 | **DEFAULT**     | Asigna valores automáticos cuando no se proporcionan. | `productos.stock DEFAULT 0`.                                  |
+
+## Evidencia Base de datos y tablas
+
+![Base datos y Tablas](img/BaseDatosTablas.png)
+## Evidencia Quiz
+
+![Evidencia Prueba](img/QuizSqlite.png)
