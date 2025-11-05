@@ -1,1 +1,4 @@
-tienda_ejemplo.db
+# Ignorar todas las bases de datos SQLite
+*.db
+*.sqlite
+*.sqlite3
