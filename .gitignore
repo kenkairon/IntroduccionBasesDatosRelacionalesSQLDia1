@@ -2,3 +2,6 @@
 *.db
 *.sqlite
 *.sqlite3
+
+# Ignorar base de datos SQLite
+tienda_ejemplo.db
